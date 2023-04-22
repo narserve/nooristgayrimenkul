@@ -1,0 +1,16 @@
+{
+  "name": "nooristgayrimenkul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
