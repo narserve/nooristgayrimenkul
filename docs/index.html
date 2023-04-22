@@ -32,12 +32,16 @@
     }
 
     h2{
+      font-size: 30px;
       font-weight: 400;
     }
     
     #iletisim{
       text-align: center;
       padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
     }
 
     a{
@@ -62,34 +66,54 @@
   <h1 style="display: none;">NOORiST GAYRİMENKUL</h1> 
 
 
-  <img id="header" src="./header.jpg">
-
-
-  <div style="margin: 24px; text-align: center; font-weight: bold;">
-    web sitemiz yapım aşamasında<br/>
-    çok yakında hizmetinizdeyiz
+  <div style="width: 100%; background-color: #393C50; padding: 24px; margin-bottom: 50px; text-align: center;">
+    web sitemiz yapım aşamasında, çok yakında hizmetinizdeyiz.
   </div>
+
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+    <img id="header" src="/header.jpg">
+    <div id="iletisim">
+
+      <h2 style="margin: 24px 24px 12px;">İletişim</h2>
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div>
+          <h4>Nuray Ateş</h4>
+          <p>Ofis Sahibi (Broker)</p>
+          <a href="tel:05441033031">0(544) 103 30 31</a>
+        </div>
+        <div>
+          <h4>Ahmet Karaca</h4>
+          <p>Gayrimenkul Danışmanı</p>
+          <a href="tel:05441033031">0(538) 499 09 29</a>
+        </div>
+      </div>
+        
+      <h2 style="margin: 24px 24px 12px;">E-Mail</h2>
+      <div>
+        <a href="mailto:nooristgayrimenkul@gmail.com">nooristgayrimenkul@gmail.com</a>
+      </div>
+      
+      <h2 style="margin: 24px 24px 12px;">İlanlarımız</h2>
+      <div>
+        <a href="https://noorist.sahibinden.com/"><img src="/sahibinden.jpg" style="height: 40px;"/></a>
+      </div>
+        
+      <!-- <h2 style="margin: 24px 24px 6px;">Adres</h2>
+      <div>Nazım Hikmet Bulv. Barbaros Hayrettin Paşa Mh. No:84 D:165 Newista Residance, Beylikdüzü, İstanbul</div> -->
+  
+    </div>    
+  </div>
+
+
+
+
+
   
   
-  <div id="iletisim">
 
-    <h3 style="margin: 24px 24px 6px;">Telefon</h3>
-    <div>
-      <a href="tel:05441033031">0544 103 30 31</a>
-    </div>
-      
-    <h3 style="margin: 24px 24px 6px;">E-Mail</h3>
-    <div>
-      <a href="mailto:nooristgayrimenkul@gmail.com">nooristgayrimenkul@gmail.com</a>
-    </div>
-      
-    <!-- <h3 style="margin: 24px 24px 6px;">Adres</h3>
-    <div>Nazım Hikmet Bulv. Barbaros Hayrettin Paşa Mh. No:84 D:165 Newista Residance, Beylikdüzü, İstanbul</div> -->
-
-  </div>
  
   
   </body>
 </html>
-</body>
-</html>
+
