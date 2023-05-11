@@ -1,14 +1,4 @@
-/**
-* Template Name: Sailor
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -546,7 +536,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 120px 0 60px 0;
+  padding: 90px 0 60px 0;
   overflow: hidden;
 }
 
@@ -560,7 +550,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -573,11 +563,21 @@ section {
 
 .section-title h2::after {
   content: "";
-  width: 120px;
+  width: 20px;
   height: 1px;
   display: inline-block;
   background: #e6636a;
   margin: 4px 10px;
+}
+.section-title h2::before {
+  content: "";
+  width: 20px;
+  height: 1px;
+  display: inline-block;
+  background: #e6636a;
+  margin: 10px 10px 4px 0px;
+
+
 }
 
 .section-title p {
@@ -1086,18 +1086,19 @@ section {
   transition: 0.3s;
   color: #556270;
   border-radius: 0;
-  border-right: 2px solid white;
   font-weight: 600;
   font-size: 15px;
+  border-bottom: 1px solid #777777;
 }
 
 .features .nav-link:hover {
   color: #d9232d;
+ 
 }
 
 .features .nav-link.active {
-  color: #d9232d;
-  border-color: #d9232d;
+  
+  
 }
 
 .features .tab-pane.active {
@@ -1127,7 +1128,7 @@ section {
 
   .features .nav-link.active {
     color: #fff;
-    background: #d9232d;
+    
   }
 }
 
