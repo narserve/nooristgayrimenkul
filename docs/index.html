@@ -1,123 +1,259 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
-  <title>NOOR iST GAYRİMENKUL</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="NOOR iST GAYRİMENKUL" />
-  <meta name="description" content="Emlak, Gayrimenkul, Konut, Daire, Ofis, Alım, Satım">
-  <meta property="og:image" content="https://nooristgayrimenkul.com/logo.jpg" />
-  <meta property="og:image:width" content="400" />
-  <meta property="og:image:height" content="225" />
+  <title>Noor İst Gayrimenkul</title>
+  <meta content="Noor İst Gayrimenkul, Emlak, Konut, Daire alım satımı konusunda hizmet vermektedir." name="description">
+  <meta content="Emlak, Konut, Daire Alım Satımı" name="keywords">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">  
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <style>
-    
-    *{margin: 0; padding: 0; box-sizing: border-box;}
-    html, body{ min-height: 100vh;  overflow-x: hidden; }
-    body{
-      background-color: #292B3A;
-      color: #fff;
-      display: flex;
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-      flex-direction: column;
-      align-items: center;
+ 
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-      font-family: 'Roboto', sans-serif;
-      font-weight: 100;
-      line-height: 24px;
+  <link href="assets/css/style.css" rel="stylesheet">
 
-      align-items: center;
-      justify-content: center;
-
-    }
-
-    h2{
-      font-size: 30px;
-      font-weight: 400;
-    }
-    
-    #iletisim{
-      text-align: center;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    a{
-      color: white;
-      text-decoration: underline;
-      text-decoration-color: rgba(255,255,255,50%);
-    }
-    a:hover{
-      color: rgba(255,255,255,75%);
-    }
-
-    @media only screen and (max-width: 575px) {
-      #logo{
-        zoom: 0.6;
-      }
-    }
-    
-  </style>
-
-
+ 
 </head>
+
 <body>
 
-  <h1 style="display: none;">NOORiST GAYRİMENKUL</h1> 
 
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+<h1 style="display: none;">Noor İst Gayrimenkul</h1>
+       <a href="index.html" class="logo me-auto">
+        <img id="noorist" src="assets/img/logo.jpg" alt="Noor İst Gayrimenkul" class="img-fluid"></a>
 
-  <div style="width: 100%; background-color: #393C50; padding: 24px; margin-bottom: 50px; text-align: center; font-size: 16px;">
-    web sitemiz yapım aşamasında, çok yakında hizmetinizdeyiz.
-  </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active" >Anasayfa</a></li>
+            <li ><a href="hakkimizda">Hakkımızda</a></li>
+            <li ><a href="misyonumuz">Misyonumuz</a></li>
+            <li ><a href="vizyonumuz">Vizyonumuz</a></li>
+  
+            <li><a href="iletisim">İletişim</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
 
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    </div>
+  </header><!-- End Header -->
 
-    <img id="logo" src="/logo.jpg" alt="Noor İst Gayrimenkul">
-    <div id="iletisim">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-      <h2 style="margin: 24px 24px 12px;">İlanlarımız</h2>
-      <div>
-        <a href="https://noorist.sahibinden.com/"><img src="/sahibinden.jpg" style="height: 40px;"/></a>
-      </div>      
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <h2 style="margin: 24px 24px 12px;">İletişim</h2>
-      <div style="display: flex; flex-direction: column; gap: 24px;">
-        <div>
-          <h4>Nuray Ateş</h4>
-          <p style="font-size: 14px !important;color: rgba(255,255,255,75%);">Ofis Sahibi (Broker)</p>
-          <a href="tel:05441033031">0(544) 103 30 31</a>
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Hayallerinizin evini bizimle bulun</h2>
+              <p class="animate__animated animate__fadeInUp">
+                Profesyonel ekibimizle, güvenilir ve kaliteli hizmet sunarak sizi hayallerinizdeki ev ile buluşturuyoruz.
+                </p>
+              <a href="https://noorist.sahibinden.com/emlak?sorting=date_desc" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="_blank">İlanlarımız 
+                <span class="radius">
+                   <img  src="assets/img/sahibinden-com-icon-filled-256.png" alt="İlanlarımız"/>
+                </span>
+            </a>
+            </div>
+          </div> 
         </div>
-        <div>
-          <h4>Ahmet Karaca</h4>
-          <p style="font-size: 14px !important;color: rgba(255,255,255,75%);">Gayrimenkul Danışmanı</p>
-          <a href="tel:05441033031">0(538) 499 09 29</a>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Güvenilir çözümler, sınırsız fırsatlar</h2>
+              <p class="animate__animated animate__fadeInUp">
+                Güvenilir çözümler ve sınırsız fırsatlardan faydalanmak için bizimle iletişime geçebilirsiniz.
+                </p>
+
+              <a href="https://noorist.sahibinden.com/emlak?sorting=date_desc" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="_blank">İlanlarımız 
+                <span class="radius">
+                   <img  src="assets/img/sahibinden-com-icon-filled-256.png" alt="İlanlarımız"/>
+                </span>
+            </a>
+
+            </div>
+          </div>
+        </div>
+       
+         <div class="carousel-item" style="background-image: url(assets/img/slide/3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Noor İst Gayrimenkul</h2>
+              <p class="animate__animated animate__fadeInUp">
+                Yenilikçi yaklaşımımızla, gayrimenkul sektöründe farkı bizimle yaşayın.
+              </p>
+
+              <a href="https://noorist.sahibinden.com/emlak?sorting=date_desc" class="btn-get-started animate__animated animate__fadeInUp scrollto" target="_blank">İlanlarımız 
+                <span class="radius">
+                   <img  src="assets/img/sahibinden-com-icon-filled-256.png" alt="İlanlarımız"/>
+                </span>
+            </a>
+
+            </div>
+          </div>
+        </div>
+
+       
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <section id="features" class="features">
+      <div id="width100" class="container">
+
+        
+
+        <div class="row">
+          <div class="col-lg-3 col-sm-3 center">
+            <div class="section-title">
+              <h2>Noor İst Gayrimenkul</h2>
+              <p id="ilanlarimiz">İlanlarımız</p>
+            </div>
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link " href="https://noorist.sahibinden.com/satilik-daire" target="_blank">Satılık İlanlarımız</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="https://noorist.sahibinden.com/kiralik-daire" target="_blank">Kiralık İlanlarımız</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="https://noorist.sahibinden.com/devren-satilik-konut-daire" target="_blank">Devren Satılık İlanlarımız</a>
+              </li>
+              
+              
+            </ul>
+          </div>
+          <div class="col-lg-9 col-sm-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1" role="tabpanel">
+                <div class="row">
+                  <div class="col-lg-8 col-sm-12 details " style="position: relative;">
+                    <div id="bgimage"></div>
+                    <h3>Değerli müsterilerimiz</h3>
+                    <p class="fst-italic">- Emlak yatırımı, uzun vadeli karlılık potansiyeli sunan güvenli bir yatırım aracıdır. </p>
+                    <p> - Emlak, değeri zamanla artabilen bir varlık olarak kabul edilir ve sermaye getirisi sağlayabilir</p>
+<p>- Kiralama geliri ve değer artışı gibi çeşitli kaynaklardan elde edilen gelirler, emlak yatırımcılarına istikrarlı ve sürekli bir gelir sağlar.</p>
+<p>- Emlak, enflasyona karşı doğal bir koruma sağlar ve paranın değer kaybetmesi durumunda yatırımcıyı korur.</p>
+<b style="font-size:12px; color:#777777;">Sizde bu kazanç fırsatlarından faydalanmak için bizimle iletişime geçebilirsiniz.</b>                  </div>
+                  <div id="gizle" class="col-lg-4 col-sm-2 text-center hidden-xs hidden-sm">
+                    <img src="assets/img/features-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              
+              
+             
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+
+   
+   
+
+  </main><!-- End #main -->
+
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Nuray Ateş</h3>
+              <p>
+              
+                <strong>Telefon :</strong> 544 103 30 31<br>
+                <strong>Email :</strong> nooristgayrimenkul@gmail.com<br>
+              </p>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/noor_istgyrmnkl" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/people/Noor-%C4%B0st-Gayrimenkul/100092309384281/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/noor_istgayrimenkul/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+               <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+              </div>
+            </div>
+          </div>
+
+          
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Bültenimiz</h4>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
         </div>
       </div>
-        
-      <h2 style="margin: 24px 24px 12px;">E-Mail</h2>
-      <div>
-        <a href="mailto:nooristgayrimenkul@gmail.com">nooristgayrimenkul@gmail.com</a>
-      </div>
-      
+    </div>
 
-        
-      <h2 style="margin: 24px 24px 6px;">Adres</h2>
-      <div>Kayabaşı Mahallesi, Adnan Menderes Bulvarı, Kuzey Yakası B3 Blok, No:5A/14 Başakşehir/İstanbul</div> 
-     <p><iframe width="400" height="200" style="border:5px solid #292B3A");
-box-shadow: -1px -1px 10px 0px rgba(144,221,235,1);" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12022.483306859234!2d28.773929!3d41.1209714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caafd7342c95df%3A0x6e8c87945f36b152!2sNoor%20%C4%B0st%20Gayrimenkul!5e0!3m2!1str!2str!4v1683113328224!5m2!1str!2str" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-  
-    </div>    
-  </div>
-  
-  </body>
+    
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
