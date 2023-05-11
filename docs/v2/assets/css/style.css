@@ -245,6 +245,7 @@ h6 {
 
  #width100{
   min-width: 100% !important;
+  
  }
  #noorist{
   height: 90px;
@@ -253,6 +254,20 @@ h6 {
  #ilanlarimiz{
   font-size: 16px !important;
  }
+ #gizle{
+  display: none;
+}
+#bgimage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.10;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/features-1.png');
+  background-repeat: no-repeat;
+  z-index: -5;
+}
 
 }
 
@@ -268,6 +283,21 @@ h6 {
    #ilanlarimiz{
     font-size: 25px !important;
    }
+   #gizle{
+    display: none;
+  }
+  #bgimage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.10;
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/features-1.png');
+    background-repeat: no-repeat;
+    z-index: -5;
+  }
+  
  }
 
 /**
