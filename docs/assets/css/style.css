@@ -1429,6 +1429,10 @@ section {
   font-size: 14px;
   color: #8795a4;
 }
+.contact .info p a {
+ 
+  color: #8795a4;
+}
 
 .contact .info .email,
 .contact .info .phone {
