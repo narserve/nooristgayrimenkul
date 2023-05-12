@@ -118,7 +118,7 @@
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div id="sil" class="error-message"></div>
+                <div id="yaz" class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button id="gonder" type="submit">Gönder</button></div>
@@ -193,7 +193,20 @@
 
   <!-- Template Main JS File -->
   <script src="/assets/js/main.js"></script>
-  
+  <script>
+
+
+
+// İlgili div'in id'si "gonder" olan div'i seçme
+var divGonder = document.getElementById("gonder");
+
+// Tıklama olayını dinleme
+divGonder.addEventListener("click", function() {
+  // İçindeki metni silme ve yerine "Merhaba" yazma
+  var divAhmet = document.getElementById("yaz");
+  yaz.textContent = "Merhaba";
+});
+  </script>
 
 </body>
 
