@@ -118,10 +118,10 @@
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="onay-mesajı">Mailiniz bize ulaşmıştır</div>
+                <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Gönder</button></div>
+              <div class="text-center"><button id="gonder" type="submit">Gönder</button></div>
             </form>
 
           </div>
@@ -193,6 +193,11 @@
 
   <!-- Template Main JS File -->
   <script src="/assets/js/main.js"></script>
+  <script>
+    $( "#gonder" ).on( "click", function() {
+      $(".error-message" ).hide()
+    } );
+    </script>
 
 </body>
 
