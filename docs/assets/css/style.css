@@ -1433,7 +1433,9 @@ section {
  
   color: #8795a4;
 }
-
+.entry-img img{
+  border-radius: 5px 5px 0 0;
+}
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
